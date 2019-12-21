@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7304772822EB353C00AE7C26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7304772722EB353C00AE7C26 /* main.cpp */; };
+		7304773022EB35B300AE7C26 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7304772F22EB35B300AE7C26 /* libcurl.a */; };
+		7304773B22EB378000AE7C26 /* CityController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7304773922EB378000AE7C26 /* CityController.cpp */; };
+		733E11C022F30421006F3634 /* CityView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 733E11BE22F30421006F3634 /* CityView.cpp */; };
+		733E11C322F3043A006F3634 /* CityModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 733E11C122F3043A006F3634 /* CityModel.cpp */; };
+		739B4EF722F07F0400F8EA03 /* HttpRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 739B4EF522F07F0400F8EA03 /* HttpRequest.cpp */; };
+		739B4EFA22F0832300F8EA03 /* HttpResponce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 739B4EF822F0832300F8EA03 /* HttpResponce.cpp */; };
+		739B4EFE22F2015200F8EA03 /* ModelNet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 739B4EFC22F2015200F8EA03 /* ModelNet.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7304772222EB353C00AE7C26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7304772422EB353C00AE7C26 /* weather */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = weather; sourceTree = BUILT_PRODUCTS_DIR; };
+		7304772722EB353C00AE7C26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7304772F22EB35B300AE7C26 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../../../usr/local/Cellar/curl/7.65.3/lib/libcurl.a; sourceTree = "<group>"; };
+		7304773922EB378000AE7C26 /* CityController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CityController.cpp; sourceTree = "<group>"; };
+		7304773A22EB378000AE7C26 /* CityController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CityController.hpp; sourceTree = "<group>"; };
+		733E11BE22F30421006F3634 /* CityView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CityView.cpp; sourceTree = "<group>"; };
+		733E11BF22F30421006F3634 /* CityView.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CityView.hpp; sourceTree = "<group>"; };
+		733E11C122F3043A006F3634 /* CityModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CityModel.cpp; sourceTree = "<group>"; };
+		733E11C222F3043A006F3634 /* CityModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CityModel.hpp; sourceTree = "<group>"; };
+		739B4EF522F07F0400F8EA03 /* HttpRequest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HttpRequest.cpp; sourceTree = "<group>"; };
+		739B4EF622F07F0400F8EA03 /* HttpRequest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HttpRequest.hpp; sourceTree = "<group>"; };
+		739B4EF822F0832300F8EA03 /* HttpResponce.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HttpResponce.cpp; sourceTree = "<group>"; };
+		739B4EF922F0832300F8EA03 /* HttpResponce.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HttpResponce.hpp; sourceTree = "<group>"; };
+		739B4EFC22F2015200F8EA03 /* ModelNet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ModelNet.cpp; sourceTree = "<group>"; };
+		739B4EFD22F2015200F8EA03 /* ModelNet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ModelNet.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7304772122EB353C00AE7C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7304773022EB35B300AE7C26 /* libcurl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7304771B22EB353C00AE7C26 = {
+			isa = PBXGroup;
+			children = (
+				7304772622EB353C00AE7C26 /* weather */,
+				7304772522EB353C00AE7C26 /* Products */,
+				7304772E22EB35B200AE7C26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7304772522EB353C00AE7C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7304772422EB353C00AE7C26 /* weather */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7304772622EB353C00AE7C26 /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				7304773622EB364800AE7C26 /* Net */,
+				7304773122EB35EA00AE7C26 /* App */,
+				7304772722EB353C00AE7C26 /* main.cpp */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
+		7304772E22EB35B200AE7C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7304772F22EB35B300AE7C26 /* libcurl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7304773122EB35EA00AE7C26 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7304773422EB360200AE7C26 /* M */,
+				7304773322EB35FF00AE7C26 /* V */,
+				7304773522EB362F00AE7C26 /* C */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7304773322EB35FF00AE7C26 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				733E11BE22F30421006F3634 /* CityView.cpp */,
+				733E11BF22F30421006F3634 /* CityView.hpp */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		7304773422EB360200AE7C26 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				733E11C122F3043A006F3634 /* CityModel.cpp */,
+				733E11C222F3043A006F3634 /* CityModel.hpp */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7304773522EB362F00AE7C26 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7304773922EB378000AE7C26 /* CityController.cpp */,
+				7304773A22EB378000AE7C26 /* CityController.hpp */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7304773622EB364800AE7C26 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				7304773722EB365200AE7C26 /* M */,
+				7304773822EB365900AE7C26 /* C */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		7304773722EB365200AE7C26 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				739B4EFC22F2015200F8EA03 /* ModelNet.cpp */,
+				739B4EFD22F2015200F8EA03 /* ModelNet.hpp */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7304773822EB365900AE7C26 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7304773E22EB3B5000AE7C26 /* HTTRequest */,
+				7304773D22EB3B4000AE7C26 /* HTTPresponce */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7304773D22EB3B4000AE7C26 /* HTTPresponce */ = {
+			isa = PBXGroup;
+			children = (
+				739B4EF822F0832300F8EA03 /* HttpResponce.cpp */,
+				739B4EF922F0832300F8EA03 /* HttpResponce.hpp */,
+			);
+			path = HTTPresponce;
+			sourceTree = "<group>";
+		};
+		7304773E22EB3B5000AE7C26 /* HTTRequest */ = {
+			isa = PBXGroup;
+			children = (
+				739B4EF522F07F0400F8EA03 /* HttpRequest.cpp */,
+				739B4EF622F07F0400F8EA03 /* HttpRequest.hpp */,
+			);
+			path = HTTRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7304772322EB353C00AE7C26 /* weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7304772B22EB353C00AE7C26 /* Build configuration list for PBXNativeTarget "weather" */;
+			buildPhases = (
+				7304772022EB353C00AE7C26 /* Sources */,
+				7304772122EB353C00AE7C26 /* Frameworks */,
+				7304772222EB353C00AE7C26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weather;
+			productName = weather;
+			productReference = 7304772422EB353C00AE7C26 /* weather */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7304771C22EB353C00AE7C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = artyr;
+				TargetAttributes = {
+					7304772322EB353C00AE7C26 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7304771F22EB353C00AE7C26 /* Build configuration list for PBXProject "weather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7304771B22EB353C00AE7C26;
+			productRefGroup = 7304772522EB353C00AE7C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7304772322EB353C00AE7C26 /* weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7304772022EB353C00AE7C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739B4EFE22F2015200F8EA03 /* ModelNet.cpp in Sources */,
+				733E11C022F30421006F3634 /* CityView.cpp in Sources */,
+				739B4EFA22F0832300F8EA03 /* HttpResponce.cpp in Sources */,
+				739B4EF722F07F0400F8EA03 /* HttpRequest.cpp in Sources */,
+				7304773B22EB378000AE7C26 /* CityController.cpp in Sources */,
+				7304772822EB353C00AE7C26 /* main.cpp in Sources */,
+				733E11C322F3043A006F3634 /* CityModel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7304772922EB353C00AE7C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7304772A22EB353C00AE7C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7304772C22EB353C00AE7C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/curl/7.65.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7304772D22EB353C00AE7C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/curl/7.65.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7304771F22EB353C00AE7C26 /* Build configuration list for PBXProject "weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7304772922EB353C00AE7C26 /* Debug */,
+				7304772A22EB353C00AE7C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7304772B22EB353C00AE7C26 /* Build configuration list for PBXNativeTarget "weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7304772C22EB353C00AE7C26 /* Debug */,
+				7304772D22EB353C00AE7C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7304771C22EB353C00AE7C26 /* Project object */;
+}
